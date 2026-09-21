@@ -5,7 +5,9 @@ This is an engineering plan based on the published rules, not an FCC determinati
 about a completed transmitter. Recheck the current rules and chosen frequency before
 RF testing. A first supervised identified voice/tone test is recorded in the
 [desktop bring-up notes](desktop-radio-bringup.md), along with a subsequent supervised
-4-FSK message transmit attempt. Over-radio packet decoding remains to do.
+4-FSK message transmit attempt. A later acoustic recording yielded the exact message
+after offline equalization; see [experiment 0003](experiments/0003-acoustic-equalization.md).
+This engineering update does not refresh the dated regulatory research below.
 
 ## A new decoder is not automatically a prohibited code
 
@@ -43,8 +45,10 @@ authorized; extended unattended beaconing is outside this plan.
 [§97.111(b)](https://www.law.cornell.edu/cfr/text/47/97.111)
 
 Local band plans and coordination help select a channel; distinguish those operating
-recommendations from the FCC allocation/technical rules. No exact RF frequency has
-been selected. Avoid calling channels, repeater inputs/outputs, satellite segments,
+recommendations from the FCC allocation/technical rules. The operator selected
+146.580 MHz for the initial local trials; this is recorded test configuration, not
+a universal default or approval for future locations/conditions. Avoid calling
+channels, repeater inputs/outputs, satellite segments,
 and active channels. Other-radio-service use needs separate authorization; an amateur
 license is not blanket authority for GMRS, commercial, or other service experiments.
 

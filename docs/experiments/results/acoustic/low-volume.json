@@ -1,0 +1,125 @@
+{
+  "source": "Voice 260920_222820.m4a",
+  "source_sha256": "5b29d4857b8ed963e6a29526327622bef320b758286d58072c26bdfec421ffea",
+  "duration_seconds": 16.469333333333335,
+  "conversion": "FFmpeg to 48 kHz float WAV, arithmetic-mean channel mix",
+  "results": [
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 5.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 5.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 5.0,
+      "decoded_bytes": 406,
+      "payload_file": "equalized-fixed-5.bin",
+      "payload_sha256": "0e948931f853d6a087339383663faa8794f8b657c8da85c9f7149effbac7d15b"
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 5.0,
+      "decoded_bytes": 406,
+      "payload_file": "equalized-stream-5.bin",
+      "payload_sha256": "0e948931f853d6a087339383663faa8794f8b657c8da85c9f7149effbac7d15b"
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    }
+  ],
+  "equalizer": {
+    "method": "public-sync inverse FIR, fixed 80 taps and ridge 1e-5",
+    "candidate_frame_origin_seconds": 9.442895833333333,
+    "sync_correlation": 0.6359184485457691,
+    "training_target_sample_range_in_frame": [
+      5200,
+      6320
+    ],
+    "training_receive_sample_range_in_recording": [
+      458419,
+      459618
+    ],
+    "training_samples": 1120,
+    "expected_payload_used": false,
+    "filter_taps": 80,
+    "ridge": 1e-05
+  }
+}

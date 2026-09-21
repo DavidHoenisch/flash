@@ -1,0 +1,46 @@
+{
+  "description": "Experiment 0003; source used for public-sync equalization, regression sweep and exploratory diagnostics. Input recordings remain local.",
+  "source_hashes": {
+    "Cargo.toml": "4e9e9564043e368481ec475c7a7934557dfdc9d693c04cbe3d2bedc7223a312e",
+    "Cargo.lock": "e8cd261d961e9ae45d077c3b896814d2999073b3807fd30e52c3a96aacc0dc6d",
+    "rust-toolchain.toml": "863ac6e336df079665e94bf31343a39d9a7c137934e06fcee7b43557260b6c1c",
+    "pyproject.toml": "83cfe2cf587fcd94d7ed2ada2376fc3d9e2979aa4e944527647642dd4fe5502d",
+    "uv.lock": "3bdda1f1bcd0517cd76b18e979f0284972d221fc7084087e8c380230b318073a",
+    ".python-version": "2a65167c318675d011d4d030b71efaef3cc5d848faf810d7e40e887a51b72341",
+    "Makefile": "dc7d75930f04d44d029a73f6873bbaf8ab1048300d03244e350afa794b1cc792",
+    "crates/flash-modem/src/lib.rs": "cb04bea5dcaf21ad2ad0b34dd4aea691740cea713a5f168d624c1b574899ff3b",
+    "crates/flash-modem/src/main.rs": "e227b12ca04cd3ebb63a3326a3acf04d95aee90dfcb7fbae14098130b333bde2",
+    "crates/flash-modem/src/streaming.rs": "b647aa3001c844092af5ed2fdc82ef34e7fa11f2aa3e138e634da343a358bbd6",
+    "lab/__init__.py": "8ca25669791613122c236b386448d282ee3964c770ac9e5cf58f712275aa1ad9",
+    "lab/__main__.py": "1898aa3a282cad8e1836e07a808c99269781c766964d8432f92a8cb339849cdb",
+    "lab/channel.py": "01a903298f67670f137e0a14da3c5ac83198f97ed2771b1c8de9f5f7fa046de6",
+    "lab/equalizer_sweep.py": "41a9a6c0f496e50c51da53549dce2497d3f7b2179413a0ad63180d80cd87a621",
+    "lab/long_runs.py": "2d0e61105611ca3834da40c8583c790f4121d06b6e827be4261eb06972763176",
+    "lab/modem.py": "4b6d05703489c43af84fe251c663d91c5f8c007c4bc8b6f93d8e33a34f63d909",
+    "lab/radio.py": "38ae971df0b5f668620c51e891ddb87b1da4459d3a2e2cb2b99446542c9376d5",
+    "lab/recording.py": "d7169bcb1f1d75b3276c4484c854f6cc30eeb76ccab15d6500ff18edd5d675f6",
+    "lab/timing.py": "eeb47ae45cef0852172cdb1a111921065248bac02afdd7441d2f5bf97ae6f9cd",
+    "tests/test_lab.py": "e6bb6980b63e0664c777e48b2bdd6161e4ad1aa445f1db81430f9f183fd8215d",
+    "tests/test_radio.py": "12ca057d1efbe346e2471c3add75cf8ad313ec14445121ba88e78d715adad2b1",
+    "tests/test_recording.py": "d5cc415dcbcea9f2eae7edda23514aa80066f3cf0a6c7d148a8b192ab6755f66",
+    "tests/test_streaming.py": "17079c3240dd93f53be937b5b1a05daf0338d8bdc424e4af923062b1347e82c6",
+    "docs/experiments/results/acoustic/diagnostic_alignment.py": "23fd441f725b776d65ef33ca22b1ecbc896f6c5f68ca1f0e71875402443c0721",
+    "docs/experiments/results/acoustic/diagnostic_linear_path.py": "ab546bfba6f7d5345736bbcd2fe159425afdf29671f4ee77f0ef2c726080488c",
+    "docs/experiments/results/acoustic/diagnostic_tone_probe.py": "b46e3306621c782b3cf8b54e64af08e48c7e87b8419bd52210d7e950b2c3cea5"
+  },
+  "source_archive_sha256": "9077431f976c34a49439a7ebe6003258343e947e3502a58ffebadbf72ce3610a",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "rustc": "rustc 1.93.0 (254b59607 2026-01-19)",
+  "ffmpeg": "ffmpeg version 8.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "binary_sha256": "27a19e1bb7eafbb34afdf4e7dc319907ea75ffbccde6dca0becb7a4bfb8719cc",
+  "result_hashes": {
+    "original.json": "992639c1c319d740a6900ed56c24b72c85bb6751b7f1e196bcdd3eddfaf93b32",
+    "linear-path.json": "35d838a470e97e31a4b108d6b0d8213c8bf107b2e29d19c9db7105ddc6e43003",
+    "sweep.json": "a780dcdc564895c8fc3decd035cfa790254746fc2fdad4460628c4926a92c058",
+    "low-volume.json": "f6c267ebe456e707cbd4fc4b3353fd17d4318fd51e839bd7a16571cc9e3617ea"
+  }
+}

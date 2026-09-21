@@ -1,0 +1,2070 @@
+{
+  "seed_base": 20260921,
+  "payload_bytes": 256,
+  "note": "For delayed-inverted-copy, SNR is referenced to audio after that FIR; other cells follow Channel's TX reference.",
+  "summary": [
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trials": 10,
+      "raw_fixed": 10,
+      "raw_stream": 10,
+      "equalized_fixed": 10,
+      "equalized_stream": 10
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trials": 10,
+      "raw_fixed": 10,
+      "raw_stream": 10,
+      "equalized_fixed": 10,
+      "equalized_stream": 10
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trials": 10,
+      "raw_fixed": 10,
+      "raw_stream": 10,
+      "equalized_fixed": 10,
+      "equalized_stream": 10
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trials": 10,
+      "raw_fixed": 10,
+      "raw_stream": 10,
+      "equalized_fixed": 10,
+      "equalized_stream": 10
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trials": 10,
+      "raw_fixed": 10,
+      "raw_stream": 10,
+      "equalized_fixed": 10,
+      "equalized_stream": 10
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trials": 10,
+      "raw_fixed": 10,
+      "raw_stream": 10,
+      "equalized_fixed": 10,
+      "equalized_stream": 10
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trials": 10,
+      "raw_fixed": 3,
+      "raw_stream": 0,
+      "equalized_fixed": 9,
+      "equalized_stream": 5
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trials": 10,
+      "raw_fixed": 0,
+      "raw_stream": 0,
+      "equalized_fixed": 0,
+      "equalized_stream": 0
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trials": 10,
+      "raw_fixed": 0,
+      "raw_stream": 0,
+      "equalized_fixed": 0,
+      "equalized_stream": 0
+    }
+  ],
+  "trials": [
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000140451267,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000308833955,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000190351862,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999951146947,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999855393836,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.2450000010828716,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.2449999995888651,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999973716696,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000381592119,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": null,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999787488838,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.03106390675031803,
+        "tx_active_power": 0.24500000140451267,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.03106390696381289,
+        "tx_active_power": 0.24500000308833955,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.03106390681358772,
+        "tx_active_power": 0.24500000190351862,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.03106390651029633,
+        "tx_active_power": 0.24499999951146947,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.031063906388889565,
+        "tx_active_power": 0.24499999855393836,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.03106390670953669,
+        "tx_active_power": 0.2450000010828716,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.03106390652010943,
+        "tx_active_power": 0.2449999995888651,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.03106390653891284,
+        "tx_active_power": 0.24499999973716696,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.031063907056064023,
+        "tx_active_power": 0.24500000381592119,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 18,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.03106390630279183,
+        "tx_active_power": 0.24499999787488838,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.24674938212619815,
+        "tx_active_power": 0.24500000140451267,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.2467493838220481,
+        "tx_active_power": 0.24500000308833955,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.24674938262876717,
+        "tx_active_power": 0.24500000190351862,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.246749380219638,
+        "tx_active_power": 0.24499999951146947,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.2467493792552698,
+        "tx_active_power": 0.24499999855393836,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.24674938180226044,
+        "tx_active_power": 0.2450000010828716,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.24674938029758625,
+        "tx_active_power": 0.2449999995888651,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.24674938044694703,
+        "tx_active_power": 0.24499999973716696,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.2467493845548249,
+        "tx_active_power": 0.24500000381592119,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "awgn",
+      "snr_3k_db": 9,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "awgn",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.24674937857137116,
+        "tx_active_power": 0.24499999787488838,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000140451267,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000308833955,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000190351862,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999951146947,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999855393836,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.2450000010828716,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.2449999995888651,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999973716696,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24500000381592119,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": null,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.24499999787488838,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.03106390675031803,
+        "tx_active_power": 0.24500000140451267,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.03106390696381289,
+        "tx_active_power": 0.24500000308833955,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.03106390681358772,
+        "tx_active_power": 0.24500000190351862,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.03106390651029633,
+        "tx_active_power": 0.24499999951146947,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.031063906388889565,
+        "tx_active_power": 0.24499999855393836,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.03106390670953669,
+        "tx_active_power": 0.2450000010828716,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.03106390652010943,
+        "tx_active_power": 0.2449999995888651,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.03106390653891284,
+        "tx_active_power": 0.24499999973716696,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.031063907056064023,
+        "tx_active_power": 0.24500000381592119,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 18,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.03106390630279183,
+        "tx_active_power": 0.24499999787488838,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.24674938212619815,
+        "tx_active_power": 0.24500000140451267,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.2467493838220481,
+        "tx_active_power": 0.24500000308833955,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.24674938262876717,
+        "tx_active_power": 0.24500000190351862,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.246749380219638,
+        "tx_active_power": 0.24499999951146947,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.2467493792552698,
+        "tx_active_power": 0.24499999855393836,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.24674938180226044,
+        "tx_active_power": 0.2450000010828716,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.24674938029758625,
+        "tx_active_power": 0.2449999995888651,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.24674938044694703,
+        "tx_active_power": 0.24499999973716696,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.2467493845548249,
+        "tx_active_power": 0.24500000381592119,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "voice",
+      "snr_3k_db": 9,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "voice",
+        "bandpass_hz": [
+          300,
+          3000
+        ],
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.24674937857137116,
+        "tx_active_power": 0.24499999787488838,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": true,
+      "raw_stream": true,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5141247768478732,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.49983778323284156,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5154257723121799,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5065801510673446,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.49889412079854084,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.498218353002223,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": true,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5125851727528369,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5185087802955286,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": true
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5003449231673341,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": true,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": null,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.0,
+        "tx_active_power": 0.5053212963146605,
+        "nominal_snr_3k_db": null
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.06518662871214266,
+        "tx_active_power": 0.5141247768478732,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.06337515999844674,
+        "tx_active_power": 0.49983778323284156,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.06535158382052686,
+        "tx_active_power": 0.5154257723121799,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.06423003462900455,
+        "tx_active_power": 0.5065801510673446,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.06325551166499838,
+        "tx_active_power": 0.49889412079854084,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.06316983008259289,
+        "tx_active_power": 0.498218353002223,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.064991420068198,
+        "tx_active_power": 0.5125851727528369,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.06574248288973587,
+        "tx_active_power": 0.5185087802955286,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.06343946100883094,
+        "tx_active_power": 0.5003449231673341,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 18,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.06407042260277844,
+        "tx_active_power": 0.5053212963146605,
+        "nominal_snr_3k_db": 18
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 0,
+      "phase": 3.0792575193707594,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 5645,
+        "noise_variance": 0.5177957971254344,
+        "tx_active_power": 0.5141247768478732,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 1,
+      "phase": 0.8792966407389656,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2339,
+        "noise_variance": 0.503406789669351,
+        "tx_active_power": 0.49983778323284156,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 2,
+      "phase": 2.84680526611157,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 2745,
+        "noise_variance": 0.5191060821259502,
+        "tx_active_power": 0.5154257723121799,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 3,
+      "phase": 0.6508596912651122,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3387,
+        "noise_variance": 0.5101973002313666,
+        "tx_active_power": 0.5065801510673446,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 4,
+      "phase": 5.143996372246253,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 245,
+        "noise_variance": 0.5024563891743936,
+        "tx_active_power": 0.49889412079854084,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 5,
+      "phase": 0.8968644703186025,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4961,
+        "noise_variance": 0.5017757961733883,
+        "tx_active_power": 0.498218353002223,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 6,
+      "phase": 2.7943032490994506,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 4823,
+        "noise_variance": 0.5162451997499596,
+        "tx_active_power": 0.5125851727528369,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 7,
+      "phase": 4.577004145547606,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 873,
+        "noise_variance": 0.5222111038019518,
+        "tx_active_power": 0.5185087802955286,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 8,
+      "phase": 2.691901625305546,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 3867,
+        "noise_variance": 0.5039175507500457,
+        "tx_active_power": 0.5003449231673341,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    },
+    {
+      "channel": "delayed-inverted-copy",
+      "snr_3k_db": 9,
+      "trial": 9,
+      "phase": 1.8870154251182574,
+      "channel_metadata": {
+        "name": "delayed-inverted-copy",
+        "bandpass_hz": null,
+        "clip_level": null,
+        "clock_ppm": 0,
+        "erase_start_ms": 0,
+        "delay_samples": 6962,
+        "noise_variance": 0.5089294568410371,
+        "tx_active_power": 0.5053212963146605,
+        "nominal_snr_3k_db": 9
+      },
+      "raw_fixed": false,
+      "raw_stream": false,
+      "equalized_fixed": false,
+      "equalized_stream": false
+    }
+  ]
+}

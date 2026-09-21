@@ -1,0 +1,121 @@
+{
+  "source": "Voice 260920_222133.m4a",
+  "source_sha256": "085f5f4ee547db780ba4ada7344282111ab8e6dcc838fb1c07b3207412ddbefb",
+  "duration_seconds": 18.261333333333333,
+  "conversion": "FFmpeg to 48 kHz float WAV, arithmetic-mean channel mix",
+  "results": [
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 5.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 5.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "fixed",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "raw",
+      "receiver": "stream",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 0.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 5.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 5.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 10.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "fixed",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    },
+    {
+      "processing": "equalized",
+      "receiver": "stream",
+      "start_seconds": 15.0,
+      "decoded_bytes": null
+    }
+  ],
+  "equalizer": {
+    "method": "public-sync inverse FIR, fixed 80 taps and ridge 1e-5",
+    "candidate_frame_origin_seconds": 10.9025,
+    "sync_correlation": 0.45488227326905006,
+    "training_target_sample_range_in_frame": [
+      5200,
+      6320
+    ],
+    "training_receive_sample_range_in_recording": [
+      528480,
+      529679
+    ],
+    "training_samples": 1120,
+    "expected_payload_used": false,
+    "filter_taps": 80,
+    "ridge": 1e-05
+  }
+}

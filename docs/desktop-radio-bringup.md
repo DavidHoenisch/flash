@@ -105,3 +105,62 @@ has [source attribution](../fixtures/messages/README.md). Local evidence under
 `artifacts/radio/` includes `declaration-opening-plan.json`,
 `declaration-opening-fsk4.wav`, `declaration-opening-payload.txt`,
 `receive-before-declaration.wav`, and `tx-declaration-opening.json`.
+
+## First submitted acoustic recording — 2026-09-21
+
+The operator supplied `Voice 260920_222133.m4a` after replaying the Declaration
+test. It contains 18.2613 seconds of stereo, 48 kHz AAC audio. The waveform and
+spectrogram show the two spoken-ID intervals surrounding the modem burst.
+
+Neither existing Rust receiver returned a CRC-valid frame. Initial testing used
+FFmpeg conversion to mono 48 kHz float WAV and overlapping ten-second windows
+(five-second stride) to respect the CLI input limit. Follow-up attempts used the
+10.0–14.2-second interval with left, right, and averaged channels, each unfiltered
+or with a fourth-order 600–3200 Hz or 1200–3500 Hz Butterworth bandpass. Both fixed
+and streaming receivers failed all these attempts. No recovered payload is claimed.
+
+This recording is useful real-path failure evidence, but it does not isolate
+radio distortion, speaker/room effects, recorder processing, or receiver limitations.
+An exploratory known-message alignment was also saved; it is not a successful
+decode or a reliable bit-error-rate measurement. A subsequent controlled test
+should compare recording levels and a short known tone sequence before drawing
+conclusions about the waveform.
+
+Local, ignored evidence is under `artifacts/radio/`: `received-declaration.wav`,
+`received-declaration-stereo.wav`, `received-declaration-spectrum.png`,
+`received-declaration-decode.json` (including the source SHA-256), and
+`received-declaration-followup.json`. Analysis did not key PTT or transmit.
+
+## Lower-volume acoustic recording — 2026-09-21
+
+The next supplied recording, `Voice 260920_222820.m4a`, followed the request to
+reduce FTM-200D speaker volume. It contains 16.4693 seconds of stereo 48 kHz AAC.
+Both spoken-ID intervals and the intervening modem burst are visible.
+
+The existing fixed and streaming decoders returned no CRC-valid frame across
+36 attempts: left, right, or arithmetic-mean mono channels; raw or fourth-order
+600–3200 Hz Butterworth bandpass; ten-second windows starting at 0, 5, or 10 seconds
+(the last window ends with the recording). Expected text was used only to check
+decoder output, not to supply missing data. No payload was recovered.
+
+Using the same arithmetic-mean stereo mix for both recordings, whole-recording
+peak decreased from 0.8353 to 0.5584. RMS over representative 2.3-second interior
+modem intervals decreased by about 1.63 dB. These intervals are not symbol-aligned
+and recorder gain processing is unknown; this is a recording-level comparison,
+not a calibrated measurement of speaker output or proof of clipping in the first
+recording. Reducing volume did not resolve decoding failure.
+
+Local evidence under `artifacts/radio/` includes
+`received-declaration-low-volume-stereo.wav`,
+`received-declaration-low-volume-decode.json` (source SHA-256 and every attempt),
+`received-declaration-low-volume-spectrum.png`, and
+`recording-volume-comparison.json`. No RF transmission was performed during analysis.
+
+## Offline recovery follow-up — 2026-09-21
+
+The [equalization investigation](experiments/0003-acoustic-equalization.md) subsequently
+recovered the exact 406-byte message from the lower-volume recording with both
+Rust receivers and both CRCs passing. The inverse filter was trained only on the
+public sync waveform, without the expected message. The original recording still
+fails. Earlier raw-decoder failures above remain accurate; this result adds an
+experimental offline preprocessing step. No additional transmission was needed.

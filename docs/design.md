@@ -4,6 +4,10 @@ Status: initial working design, 2026-09-20. The user decisions below come from
 the referenced conversation **Design Open Source VARA Alternative** and this repo's
 continuation. Proposals in the earlier assistant's replies remain proposals.
 
+The [specification draft 0.1](spec/README.md) now collects the current requirements,
+exact experimental wire contract, proposed link behavior and decision gates. This
+notebook retains the design context; its sketches are not additional wire formats.
+
 ## Accepted direction
 
 | Area | Direction |
@@ -124,8 +128,9 @@ need their own design before deployment; this experiment supplies checksums only
    reliability, spectrum, and target-device CPU tradeoffs; choose first PHY profile.
 4. **M3 — reliable transfer.** Shared Rust session core; simulated lost/corrupt data,
    lost ACKs, duplicates, disconnects; successful message and file transfer on radios.
-5. **M4 — spec v0.1.** Exact frame encoding, coding/interleaving, synchronization,
-   timing/state transitions, error behavior, and independent conformance vectors.
+5. **M4 — freeze supported PHY/link revisions.** The draft spec exists now. Freeze
+   exact encoding, coding/interleaving, synchronization, timing/state transitions,
+   error behavior and conformance vectors only after the relevant evidence gates.
 6. **M5 — comparable VARA qualification.** Run the agreed benchmark matrix and report
    both successes and failures. Optimize later; do not redefine the target around results.
 
@@ -151,5 +156,16 @@ FEC modem, including adversarial payloads. Preserve the fixed receiver as a refe
 
 The user confirmed U.S. operation with an Amateur Extra license. The
 [radio testing plan](radio-testing-us.md) records the applicable code/ID distinctions
-and staged bench-to-air procedure. Software publication, licensing, measured RF
-spectrum, and live PTT/ID handling remain to do before an antenna-connected trial.
+and staged bench-to-air procedure. Supervised desktop PTT/voice-ID handling and
+initial acoustic radio trials have since been exercised; software publication,
+licensing, and calibrated RF spectrum measurements remain open.
+
+## Experiment 0003 update
+
+[Acoustic equalization](experiments/0003-acoustic-equalization.md) recovered the exact
+406-byte message from one of two supplied radio-speaker recordings. An offline
+inverse filter trained only on public sync allowed both Rust receivers to accept
+the packet. The other recording still fails. Evaluate a diverse training sequence,
+regularized equalization and acquisition before increasing rate; keep raw decoding
+as a reference. The experiment does not yet justify changing the wire format or
+claiming reliable radio transfers.

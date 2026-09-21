@@ -6,20 +6,25 @@ FLASH is the working project name. FM comes first; HF comes later.
 
 **Current state:** Rust FSK prototypes with fixed and streaming timing receivers,
 a Python channel/measurement lab, and a supervised desktop audio/PTT adapter. An
-identified voice/tone test through Digirig and FT-65R was heard on an FTM-200D.
-No Android app, reliable link, over-radio packet decode, or demonstrated VARA-level
+identified test through Digirig and FT-65R was recorded from an FTM-200D speaker;
+offline public-sync equalization recovered the complete 406-byte message with both
+packet CRCs passing. No Android app, reliable link, or demonstrated VARA-level
 performance yet. The experiment's framing is not
 the eventual protocol. Project licensing is still an open decision; no release
 license has been selected.
 
 ## Start here
 
+- [Specification draft 0.1](docs/spec/README.md): requirements, exact experimental wire
+  format, proposed link/platform behavior, and evidence needed to settle open decisions.
 - [Design and decisions](docs/design.md): scope, architecture, milestones, open questions.
 - [Experiment 0001](docs/experiments/0001-fsk-baseline.md): exact waveform/framing,
   measurement definitions, reproduction commands, and limitations.
 - [First results](docs/experiments/0001-results.md): measured findings and next decisions.
 - [Streaming timing experiment](docs/experiments/0002-streaming-timing.md): clock recovery,
   longer packets, paired receiver comparisons, and the long-constant-run failure.
+- [First acoustic packet recovery](docs/experiments/0003-acoustic-equalization.md):
+  recording diagnosis, experimental equalization, and reproducible decoding.
 - [Hardware plan](docs/hardware.md): S25 Ultra / Digirig / FT-65R, FTM-200D, and a second operator.
 - [U.S. radio test plan](docs/radio-testing-us.md): novel digital codes, identification,
   publication, controlled bench testing, and supervised on-air trials.

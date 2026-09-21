@@ -2,8 +2,11 @@
 
 Initial desktop bring-up is now complete: the Mac captured audio from Digirig, and
 an identified voice/tone transmission through the FT-65R was heard on the FTM-200D.
-See [desktop bring-up](desktop-radio-bringup.md). This is not an over-radio modem decode
-or a measured passband/deviation test. The simulation lab remains device-free.
+See [desktop bring-up](desktop-radio-bringup.md). A subsequent speaker recording
+yielded the complete 406-byte modem message after offline equalization; another
+recording still fails. This is not a measured passband/deviation test or a qualified
+bidirectional link. The simulation lab remains device-free. Requirements and future
+evidence gates are in the [draft specification](spec/README.md).
 
 For U.S. operation under the user's Amateur Extra license, follow the separate
 [novel-mode and radio test plan](radio-testing-us.md), including independent voice ID,
