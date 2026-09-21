@@ -1,0 +1,254 @@
+{
+  "experiment": "0002",
+  "created_utc": "2026-09-21T04:40:38.528142+00:00",
+  "command": [
+    "/Users/dhoenisch/code/flash/lab/timing.py",
+    "--trials",
+    "20",
+    "--output",
+    "artifacts/timing"
+  ],
+  "seed": 20260921,
+  "trials_per_cell": 20,
+  "cells": [
+    [
+      "clock",
+      64,
+      -2000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      64,
+      -1000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      64,
+      -500,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      64,
+      0,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      64,
+      500,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      64,
+      1000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      64,
+      2000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      -2000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      -1000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      -500,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      0,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      500,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      1000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      256,
+      2000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      -2000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      -1000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      -500,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      0,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      500,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      1000,
+      "awgn",
+      18
+    ],
+    [
+      "clock",
+      1024,
+      2000,
+      "awgn",
+      18
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "awgn",
+      3
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "awgn",
+      6
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "awgn",
+      9
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "awgn",
+      12
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "awgn",
+      18
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "voice",
+      3
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "voice",
+      6
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "voice",
+      9
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "voice",
+      12
+    ],
+    [
+      "noise",
+      256,
+      0,
+      "voice",
+      18
+    ]
+  ],
+  "python": "3.12.12 (main, Dec 17 2025, 21:07:08) [Clang 21.1.4 ]",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "source_sha256": {
+    "Cargo.lock": "e8cd261d961e9ae45d077c3b896814d2999073b3807fd30e52c3a96aacc0dc6d",
+    "uv.lock": "ea1cbe6a74350f6f862b62a94e991a7207b24acbe4c084da9d3341534d85bce4",
+    "rust-toolchain.toml": "863ac6e336df079665e94bf31343a39d9a7c137934e06fcee7b43557260b6c1c",
+    "crates/flash-modem/src/lib.rs": "cb04bea5dcaf21ad2ad0b34dd4aea691740cea713a5f168d624c1b574899ff3b",
+    "crates/flash-modem/src/main.rs": "e227b12ca04cd3ebb63a3326a3acf04d95aee90dfcb7fbae14098130b333bde2",
+    "crates/flash-modem/src/streaming.rs": "b647aa3001c844092af5ed2fdc82ef34e7fa11f2aa3e138e634da343a358bbd6",
+    "lab/__init__.py": "8ca25669791613122c236b386448d282ee3964c770ac9e5cf58f712275aa1ad9",
+    "lab/__main__.py": "1898aa3a282cad8e1836e07a808c99269781c766964d8432f92a8cb339849cdb",
+    "lab/channel.py": "01a903298f67670f137e0a14da3c5ac83198f97ed2771b1c8de9f5f7fa046de6",
+    "lab/modem.py": "4b6d05703489c43af84fe251c663d91c5f8c007c4bc8b6f93d8e33a34f63d909",
+    "lab/timing.py": "eeb47ae45cef0852172cdb1a111921065248bac02afdd7441d2f5bf97ae6f9cd"
+  },
+  "binary_sha256": "27a19e1bb7eafbb34afdf4e7dc319907ea75ffbccde6dca0becb7a4bfb8719cc",
+  "sample_rate": 48000,
+  "stream_chunk_samples": 127,
+  "snr_definition": "TX active mean power / white-noise power in 3000Hz, noise added after channel impairments",
+  "comparison": "Both receivers consume identical captured samples; no payload/offset/ppm supplied to receivers. Profiles supplied. Paired cells across profiles; independent trials within each cell."
+}

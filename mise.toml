@@ -1,0 +1,25 @@
+[tools]
+python = "3.12.12"
+uv = "0.10.0"
+
+[tasks.setup]
+description = "Install locked Python dependencies and build the modem"
+run = ["uv sync --locked", "cargo build --release --locked"]
+
+[tasks.check]
+description = "Check Rust and independent Python conformance/channel tests"
+run = ["cargo fmt --check", "cargo clippy --all-targets --locked -- -D warnings", "cargo test --locked", "cargo build --release --locked", "uv run --locked python -m unittest discover -s tests -v"]
+
+[tasks.smoke]
+run = "uv run --locked python -m lab smoke"
+
+[tasks.sweep]
+run = "uv run --locked python -m lab sweep --trials 40 --output artifacts/baseline"
+
+[tasks.timing]
+description = "Compare fixed and streaming receivers over clock and noise conditions"
+run = "uv run --locked python -m lab.timing --trials 20 --output artifacts/timing"
+
+[tasks.long-runs]
+description = "Measure known clock-tracking failures on constant payloads"
+run = "uv run --locked python -m lab.long_runs"

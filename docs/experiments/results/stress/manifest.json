@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "experiment": "0001",
+  "created_utc": "2026-09-21T04:26:23.926075+00:00",
+  "command": [
+    "/Users/dhoenisch/code/flash/lab/__main__.py",
+    "sweep",
+    "--trials",
+    "20",
+    "--snr",
+    "18",
+    "--channels",
+    "clock+100",
+    "clock-100",
+    "clock+500",
+    "clock-500",
+    "clock+1000",
+    "erase50",
+    "erase150",
+    "--output",
+    "artifacts/stress"
+  ],
+  "seed": 20260920,
+  "trials_per_cell": 20,
+  "payload_bytes": 256,
+  "snr_3k_db": [
+    18.0
+  ],
+  "channels": [
+    {
+      "name": "clock+100",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": 100,
+      "erase_start_ms": 0
+    },
+    {
+      "name": "clock-100",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": -100,
+      "erase_start_ms": 0
+    },
+    {
+      "name": "clock+500",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": 500,
+      "erase_start_ms": 0
+    },
+    {
+      "name": "clock-500",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": -500,
+      "erase_start_ms": 0
+    },
+    {
+      "name": "clock+1000",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": 1000,
+      "erase_start_ms": 0
+    },
+    {
+      "name": "erase50",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": 0,
+      "erase_start_ms": 50
+    },
+    {
+      "name": "erase150",
+      "bandpass_hz": null,
+      "clip_level": null,
+      "clock_ppm": 0,
+      "erase_start_ms": 150
+    }
+  ],
+  "sample_rate": 48000,
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "python": "3.12.12 (main, Dec 17 2025, 21:07:08) [Clang 21.1.4 ]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "rustc": "rustc 1.93.0 (254b59607 2026-01-19)",
+  "source_sha256": {
+    "Cargo.lock": "e8cd261d961e9ae45d077c3b896814d2999073b3807fd30e52c3a96aacc0dc6d",
+    "uv.lock": "ea1cbe6a74350f6f862b62a94e991a7207b24acbe4c084da9d3341534d85bce4",
+    "rust-toolchain.toml": "863ac6e336df079665e94bf31343a39d9a7c137934e06fcee7b43557260b6c1c",
+    "crates/flash-modem/src/lib.rs": "d25b9f87ce29ac9b4d66c9807400e345322c12ab9ed5425d2677fcb0dd787c5d",
+    "crates/flash-modem/src/main.rs": "8c7eca5c3387f8c28297a327c78e197dc40799302cce5d112a5e7a089dd1ddfb",
+    "lab/__init__.py": "8ca25669791613122c236b386448d282ee3964c770ac9e5cf58f712275aa1ad9",
+    "lab/__main__.py": "1898aa3a282cad8e1836e07a808c99269781c766964d8432f92a8cb339849cdb",
+    "lab/channel.py": "01a903298f67670f137e0a14da3c5ac83198f97ed2771b1c8de9f5f7fa046de6",
+    "lab/modem.py": "79d85915ace228affd0949538db7e5266cd916b584c2b2a19a667bb409997092"
+  },
+  "binary_sha256": "ba0ca0df4f786432b98daf93417d9da534363b84ab9c27234a05a28be4c2f27b",
+  "snr_definition": "TX active mean power / noise power in 3000Hz; white noise injected after audio impairments; not RF SNR or Eb/N0",
+  "rate_definition": "successfully decoded payload bits / total TX waveform seconds, including failed attempts; excludes PTT, ACK, retries, and session time",
+  "receiver": "offline fixed-phase exhaustive search, exact sync + header/body CRC, supplied profile, unknown packet offset and payload"
+}
